@@ -1,2 +1,2 @@
 #!/bin/bash
-printf wc -3 grep "root" etc/passwd
+grep -A 3 "root" etc/passwd
